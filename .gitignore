@@ -1,0 +1,33 @@
+node_modules/
+dist/
+.idea/
+*.iml
+*.log
+target/
+*.class
+*.jar
+*.war
+.DS_Store
+Thumbs.db
+backend/target/
+frontend/dist/
+frontend/node_modules/
+
+# Build caches / IDE
+*.tsbuildinfo
+.vscode/
+.hvigor/
+.cxx/
+build/
+oh_modules/
+local.properties
+
+# Local env & secrets
+.env
+.env.local
+.env.*.local
+*.pem
+*.p12
+application-local.yml
+application-local.yaml
+application-local.properties

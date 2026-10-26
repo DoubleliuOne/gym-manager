@@ -1,0 +1,1 @@
+import{a as t}from"./index-Dy6QRAhk.js";const r={list:e=>t.get("/members",{params:e}),getById:e=>t.get("/members/"+e),create:e=>t.post("/members",e),update:(e,m)=>t.put("/members/"+e,m),updateStatus:(e,m)=>t.put("/members/"+e+"/status",{status:m}),getCards:e=>t.get("/members/"+e+"/cards")};export{r as m};

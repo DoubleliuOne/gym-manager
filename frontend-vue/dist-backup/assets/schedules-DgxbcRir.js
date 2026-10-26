@@ -1,0 +1,1 @@
+import{a as s}from"./index-Dy6QRAhk.js";const d={list:e=>s.get("/schedules",{params:e}),getById:e=>s.get("/schedules/"+e),create:e=>s.post("/schedules",e),update:(e,t)=>s.put("/schedules/"+e,t),cancel:e=>s.delete("/schedules/"+e)};export{d as s};

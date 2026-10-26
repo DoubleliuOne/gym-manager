@@ -1,0 +1,1 @@
+import{a as c}from"./index-Dy6QRAhk.js";const o={list:()=>c.get("/coaches"),getById:e=>c.get("/coaches/"+e),create:e=>c.post("/coaches",e),update:(e,t)=>c.put("/coaches/"+e,t),delete:e=>c.delete("/coaches/"+e)};export{o as c};
